@@ -151,7 +151,6 @@ namespace COMP003A.ZooManagementSystem
                             foreach (var animal in zooAnimals)
                             {
                                 Console.WriteLine($"name: {animalname}, species{animalspecies}");
-                                animal.MakeSound();
                             }
                             break;
 
