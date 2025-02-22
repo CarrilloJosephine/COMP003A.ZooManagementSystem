@@ -120,8 +120,7 @@ namespace COMP003A.ZooManagementSystem
 
                 string choice = Console.ReadLine();
 
-                try
-                {
+               
                     switch (choice)
                     {
                         case "1":
@@ -174,8 +173,6 @@ namespace COMP003A.ZooManagementSystem
                             
                         }
                     }
-                }
-               
             }
         }
     }
